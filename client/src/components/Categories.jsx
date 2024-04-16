@@ -7,9 +7,7 @@ const Categories = () => {
     <div className="categories">
       <h1>Explore Top Categories</h1>
       <p>
-        Explore our wide range of vacation rentals that cater to all types of
-        travelers. Immerse yourself in the local culture, enjoy the comforts of
-        home, and create unforgettable memories in your dream destination.
+        Explore various types of accomodation Hostels, PG's, Hotels Near your university, college schools and offices. Luxorious, Vacational and Trips stays are also available at one place .
       </p>
 
       <div className="categories_list">
