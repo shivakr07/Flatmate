@@ -11,7 +11,7 @@ const userRoutes = require("./routes/user.js")
 
 app.use(cors(
   {
-    origin: ["https://flatmate-kohl.vercel.app"],
+    origin: ["https://flatmate-frontend.vercel.app"],
     methods:["POST", "GET", "PUT", "DELETE"],
     credentials: true
   }
