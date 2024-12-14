@@ -9,13 +9,11 @@ const listingRoutes = require("./routes/listing.js")
 const bookingRoutes = require("./routes/booking.js")
 const userRoutes = require("./routes/user.js")
 
-app.use(cors(
-  {
-    origin: ["https://flatmate-frontend.vercel.app"],
-    methods:["POST", "GET", "PUT", "DELETE"],
-    credentials: true
-  }
-));
+app.use(cors({
+  origin: 'https://flatmate-frontend-2dqlqgyak-shivas-projects-e6563266.vercel.app', // Replace with your frontend origin
+  methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
+  allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
+}));
 app.use(express.json());
 app.use(express.static("public"));
 
